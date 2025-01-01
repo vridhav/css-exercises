@@ -1,0 +1,34 @@
+
+.common {
+    font-size: 34px;
+    font-family: Helvetica, "Times New Roman" , sans-serif;
+}
+
+.common.first {
+    background-color: black;
+    color: white;  /*1st not working it seems
+    that class name cannot start with numerals */
+    /*.first as a selector would work just fine but parent-child seems to make more sense
+     */
+}
+    
+
+
+.common.second {
+    background-color: yellow;
+}
+
+/* solution as per exercise requirement */
+
+.first,
+.second {
+    font-size: 32px;
+    font-family: Helvetica, "Times New Roman" , sans-serif;
+}
+.first{
+    background-color: black;
+    color: white;
+}
+.second{
+    background-color: yellow;
+}
